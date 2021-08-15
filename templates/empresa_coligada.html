@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/css/emp_colig.css">
+    <title>Empresa Coligada</title>
+</head>
+<bod id='body'>
+        <div class="wrapper fadeInDown">
+                <div id="formContent">
+                  <!-- Tabs Titles -->
+              
+                  <!-- Icon -->
+                  <div class="fadeIn first">
+                    <img src="/static/images/logo.png" id="icon" alt="Imagepat" />
+                    <h1>Empresa Coligada</h1>
+                  </div>
+              
+                  <!-- Login Form -->
+                  <form action="/empcolig/change" method="POST" > <!-- Direcionar para processamento-->
+                    <input type="text" id="os" class="fadeIn second" name="os" placeholder="Ordem de Serviço Ex. 119.1234">
+                    <input type="text" id="codigo" class="fadeIn third" name="codigo" placeholder="Código Ex. 001">
+                    <input type="submit" class="fadeIn fourth" value="Alterar">
+                  </form>
+              
+                  <!-- Remind Passowrd -->
+                  <div id="formFooter">
+                    <a class="underlineHover" href="#">Desenvolvido por Yan Barreto</a>
+                  </div>
+              
+                </div>
+              </div>
+</body>
+</html>
