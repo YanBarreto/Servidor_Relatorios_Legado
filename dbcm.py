@@ -13,10 +13,10 @@ class BancoDeDados:
         self.password = ''
 
         #TESTE
-        #self.server = '10.100.1.6'
-        #self.database = 'smart_teste'
-        #self.username = 'sa'
-        #self.password = 't0$$1t'
+        #self.server = ''
+        #self.database = ''
+        #self.username = ''
+        #self.password = ''
 
 
     def __enter__(self) -> 'Conexão':
