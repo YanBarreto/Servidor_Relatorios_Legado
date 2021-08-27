@@ -7,10 +7,10 @@ class BancoDeDados:
     def __init__(self) -> None:
         
         #PRODUÇÃO
-        self.server = '10.100.1.5'
-        self.database = 'SMART'
-        self.username = 'smart'
-        self.password = '@r3@51'
+        self.server = ''
+        self.database = ''
+        self.username = ''
+        self.password = ''
 
         #TESTE
         #self.server = '10.100.1.6'
